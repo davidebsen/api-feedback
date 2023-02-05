@@ -22,7 +22,7 @@
 
 ## Colocando em produção:
 
-* Este projeto pode ser colocado em produção utilizando o Vercel. É necessário criar as variáveis de ambiente para configurar o acesso as planilhas do Google dentro do .env
+* Este projeto pode ser colocado em produção É necessário criar as variáveis de ambiente para configurar o acesso as planilhas do Google dentro do .env
 
 
 ## Construído com:
