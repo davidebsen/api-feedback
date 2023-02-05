@@ -1,6 +1,7 @@
 <h1 align="center">API-Feedback</h1>
 
 ## Início
+Projeto feito em cima da bae do PalpiteBox disponivel no [Github](https://github.com/)
 
 * O projeto API fornece duas opções de avaliação para o estabelecimento. Na primeira opção, o cliente pode fornecer informações pessoais como nome e número do WhatsApp, escolher o local a ser avaliado e atribuir uma nota ao estabelecimento usando emotes. Na segunda opção, o cliente pode apenas selecionar o nível de satisfação com o estabelecimento usando emotes. Se em ambus o formulário for submetido, pode ou não ser gerado um cupom de desconto, dependendo das configurações estabelecidas na planilha do Google pelo proprietário do estabelecimento. O cupom pode ser salvo como PDF ou impresso. A aplicação tem integração com uma planilha do Google, permitindo que o proprietário configure as opções de cupom de desconto e visualize uma lista completa de clientes e avaliações.
 
