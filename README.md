@@ -6,16 +6,16 @@
 
 ## Pré-requisitos:
 
-* NodeJS (versão 12 ou superior) [https://www.nodejs.org]
-* NPM [instalado juntamento com o NodeJS] ou YARN [https://classic.yarnpkg.com/]
-* Editor de código (Visual Studio Code, por exemplo) [https://code.visualstudio.com/]
+* [NodeJS](https://www.nodejs.org) (versão 12 ou superior) 
+* [NPM](https://classic.yarnpkg.com) [instalado juntamento com o NodeJS]
+* Editor de código ([Visual Studio Code](https://code.visualstudio.com), por exemplo) 
 
-## Clone this repository
-* git clone https://github.com/davidebsen/api-feedback
+## Clonar e instalar:
+* git clone [Api-Feedback](https://github.com/davidebsen/api-feedback)
 * cd api-feedback (Go into the repository)
 * npm install (Install dependencies)
 
-## Run the API
+## Executar Api:
 * npm run dev (server linux)
 * RumApp.bat (Windows Local) arquivo dentro do repositorio alterar endereço onde repositorio esta salvo
 
@@ -29,7 +29,6 @@
 * [NodeJS](https://www.nodejs.org)
 * [NextJS](https://nextjs.org/)
 * [TailwindCSS](https://tailwindcss.com/)
-rapidly building custom designs.
 * [Google Sheets](https://drive.google.com)
 
 ## Author:
@@ -39,7 +38,7 @@ rapidly building custom designs.
 
 ## Licença
 
-Este projeto é licenciado sobre a licença MIT - veja [LICENSE.md](LICENSE.md) para mais informações.
+Este projeto é licenciado sobre a licença MIT - veja [LICENSE](LICENSE.md) para mais informações.
 
 ## Preview.
 
