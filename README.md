@@ -4,33 +4,29 @@
 
 * O projeto API fornece duas opções de avaliação para o estabelecimento. Na primeira opção, o cliente pode fornecer informações pessoais como nome e número do WhatsApp, escolher o local a ser avaliado e atribuir uma nota ao estabelecimento usando emotes. Na segunda opção, o cliente pode apenas selecionar o nível de satisfação com o estabelecimento usando emotes. Se em ambus o formulário for submetido, pode ou não ser gerado um cupom de desconto, dependendo das configurações estabelecidas na planilha do Google pelo proprietário do estabelecimento. O cupom pode ser salvo como PDF ou impresso. A aplicação tem integração com uma planilha do Google, permitindo que o proprietário configure as opções de cupom de desconto e visualize uma lista completa de clientes e avaliações.
 
-### Pré-requisitos:
+## Pré-requisitos:
 
-$ NodeJS (versão 12 ou superior) [https://www.nodejs.org]
-$ NPM [instalado juntamento com o NodeJS] ou YARN [https://classic.yarnpkg.com/]
-$ Editor de código (Visual Studio Code, por exemplo) [https://code.visualstudio.com/]
+* NodeJS (versão 12 ou superior) [https://www.nodejs.org]
+* NPM [instalado juntamento com o NodeJS] ou YARN [https://classic.yarnpkg.com/]
+* Editor de código (Visual Studio Code, por exemplo) [https://code.visualstudio.com/]
 
-# Clone this repository
-$ git clone https://github.com/davidebsen/api-feedback
+## Clone this repository
+* git clone https://github.com/davidebsen/api-feedback
+* cd api-feedback (Go into the repository)
+* npm install (Install dependencies)
 
-# Go into the repository
-$ cd api-feedback
-
-# Install dependencies
-$ npm install
-
-# Run the API
-$ npm run dev (server linux)
-$ RumApp.bat (Windows Local) arquivo dentro do repositorio alterar endereço onde repositorio esta salvo
+## Run the API
+* npm run dev (server linux)
+* RumApp.bat (Windows Local) arquivo dentro do repositorio alterar endereço onde repositorio esta salvo
 
 
 ## Colocando em produção:
 
-Este projeto pode ser colocado em produção utilizando o Vercel. É necessário criar as variáveis de ambiente para configurar o acesso as planilhas do Google dentro do .env
+* Este projeto pode ser colocado em produção utilizando o Vercel. É necessário criar as variáveis de ambiente para configurar o acesso as planilhas do Google dentro do .env
 
 
 ## Construído com:
-* [NodeJS] (https://www.nodejs.org)
+* [NodeJS](https://www.nodejs.org)
 * [NextJS](https://nextjs.org/)
 * [TailwindCSS](https://tailwindcss.com/)
 rapidly building custom designs.
